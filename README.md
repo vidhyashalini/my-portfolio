@@ -1,16 +1,57 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive personal portfolio built using React and Vite.
 
-Currently, two official plugins are available:
+##  Technologies Used
+- HTML5
+- CSS3
+- JavaScript 
+- React.js
+- Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Structure
 
-## React Compiler
+portfolio/
+│
+├── public/
+│   └── favicon.ico
+│
+├── src/
+│   ├── assets/              
+│   │   ├── images/
+│   │   └── resume.pdf
+│   │
+│   ├── components/          
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── About.jsx
+│   │   ├── Skills.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Contact.jsx
+│   │   └── Footer.jsx
+│   │
+│   ├── App.jsx              
+│   ├── main.jsx             
+│   └── index.css            
+│
+├── package.json             --Project dependencies
+├── package-lock.json
+├── vite.config.js          
+├── .gitignore
+└── README.md
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Significance of This Project
 
-## Expanding the ESLint configuration
+This portfolio website represents my practical understanding of modern frontend development and component-based architecture using React.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The structured folder organization improves scalability, maintainability, and code readability. Separating assets, components, and configuration files ensures clean development practices and follows industry standards.
+
+The project demonstrates:
+- Strong understanding of React fundamentals
+- Modular and reusable component design
+- Responsive UI development
+- Proper project structuring
+- Version control using Git and GitHub
+- Deployment readiness
+
+This portfolio serves as both a personal branding platform and a demonstration of my technical capabilities as a software developer.
